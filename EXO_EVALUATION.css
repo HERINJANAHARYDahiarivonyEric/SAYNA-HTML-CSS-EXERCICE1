@@ -1,0 +1,31 @@
+body {margin: 0%; padding: 0%; background-image: url(background.png);}
+:default {font-family: Arial, sans-serif;}
+h1,h2,h3,h4,h5,h6 {font-family: 'Courgette','cursive';}
+
+header {background-color: #C55394; padding: 1%; height: 3vh;}
+.menubar {float: left; color: #FFF;}
+.navbar {float: right; display: inline; inline-size: 25%;}
+a {color: #FFF; padding: 4% 3% 4.5% 3%; text-decoration: none;}
+a:hover {background-color: #EB43A3;}
+
+h1 {color: #240f1b; text-align: center; background-image: url(rainbow.png); padding: 6%; margin: 1% 25% 0% 25%;}
+
+h2,h3 {color: #EB43A3}
+.article {background-color: #FFF; margin: 0% 15% 5% 15%; display: inline-block; border-radius: 1%; border-style: groove;}
+ul {margin: 3%; padding: 0%}
+li {padding-top: 2%; list-style: none;}
+
+.licorne {display: flex;}
+figure {margin: 0%;}
+img,figcaption {width: 90%;}
+figcaption {background-color: #333; text-align: center; color: #FFF;}
+.licorne figure :hover{transform: scale(1.1);}
+
+.Noustrouver {display: flex;}
+.carte {margin: none; width: 60%;}
+.formulaire {padding-left: 2%;}
+h4 {color: #EB43A3}
+.envoyer {background-color: #C55394; color: #FFF; padding: 2%; border-radius: 2%;}
+
+footer {background-color: #E577B5; padding: 1%; height: 3vh;}
+.ref {float: right; color: #FFF;}
